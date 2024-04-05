@@ -1,0 +1,8 @@
+
+    <input type="number" [value]="duration()"  (change)="changeDuration($event)">
+
+
+    <input type="text" [value]="mesenge()"  (change)="changeMesenge($event)">
+
+
+    <app-counter [duration]="duration()" [mesenge]="mesenge()"/>
